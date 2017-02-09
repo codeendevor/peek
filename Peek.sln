@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26127.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{799377D4-1873-466E-B6A2-D398F5957C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23913DB0-A4FC-4103-B59A-C2472EE80EB8}"
+	ProjectSection(SolutionItems) = preProject
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportWebJob", "src\ImportWebJob\ImportWebJob.csproj", "{25CB19AB-5913-4174-870D-C32D5D6208D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{972F067F-47E7-453D-A405-7847531946B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{A9DEB18C-C43F-40E9-A3B4-0369BF194AB7}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Images\aad01.png = docs\Images\aad01.png
+		docs\Images\aad02.png = docs\Images\aad02.png
+		docs\Images\aad03.png = docs\Images\aad03.png
+		docs\Images\aad04.png = docs\Images\aad04.png
+		docs\Images\aad05.png = docs\Images\aad05.png
+		docs\Images\appmgmt01.png = docs\Images\appmgmt01.png
+		docs\Images\appmgmt02.png = docs\Images\appmgmt02.png
+		docs\Images\peek.png = docs\Images\peek.png
+	EndProjectSection
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "Deployment", "src\Deployment\Deployment.deployproj", "{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Debug|x64.Build.0 = Debug|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Debug|x86.Build.0 = Debug|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Release|x64.Build.0 = Release|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{25CB19AB-5913-4174-870D-C32D5D6208D5}.Release|x86.Build.0 = Release|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Debug|x64.Build.0 = Debug|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Debug|x86.Build.0 = Debug|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Release|x64.ActiveCfg = Release|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Release|x64.Build.0 = Release|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25CB19AB-5913-4174-870D-C32D5D6208D5} = {799377D4-1873-466E-B6A2-D398F5957C44}
+		{A9DEB18C-C43F-40E9-A3B4-0369BF194AB7} = {972F067F-47E7-453D-A405-7847531946B9}
+		{FE26A4C6-7751-4DAF-B489-7827A0C2C6F0} = {799377D4-1873-466E-B6A2-D398F5957C44}
+	EndGlobalSection
+EndGlobal
